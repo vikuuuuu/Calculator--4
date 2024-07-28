@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="Calculator">
+      <input type="text" placeholder="0" id="inputbtn" />
+      <div>
+        <button class="colbtn Operator">AC</button>
+        <button class="colbtn Operator">Del</button>
+        <button class="colbtn Operator">%</button>
+        <button class="colbtn Operator">/</button>
+      </div>
+      <div>
+        <button class="colbtn">7</button>
+        <button class="colbtn">8</button>
+        <button class="colbtn">9</button>
+        <button class="colbtn Operator">*</button>
+      </div>
+      <div>
+        <button class="colbtn">4</button>
+        <button class="colbtn">5</button>
+        <button class="colbtn">6</button>
+        <button class="colbtn Operator">-</button>
+      </div>
+      <div>
+        <button class="colbtn">1</button>
+        <button class="colbtn">2</button>
+        <button class="colbtn">3</button>
+        <button class="colbtn Operator">+</button>
+      </div>
+      <div>
+        <button class="colbtn">00</button>
+        <button class="colbtn">0</button>
+        <button class="colbtn Operator">.</button>
+        <button class="colbtn equalto">=</button>
+      </div>
+    </div>
+    <h1>Calculator of DoB</h1>
+    <div class="DOB-Cal">
+      <div class="select-date">
+        <div class="select-start-dob">
+          <h4>Enter Date of Birth</h4>
+          <input type="date" id="dobInput" />
+        </div>
+        <div class="select-end-dob">
+          <h4>Enter Reference Date</h4>
+          <input type="date" id="refInput" />
+        </div>
+      </div>
+      <button class="check-dob-btn">Calculate Age</button>
+      <div id="ageResult" class="ageResult"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
